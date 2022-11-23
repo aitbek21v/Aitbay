@@ -1,0 +1,27 @@
+#academy {
+  padding-top: 300px;
+  background: #1E2023;
+  filter: blur(2);
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .academy {
+    &--title {
+      padding-top: 50px;
+      p {
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 54px;
+        color: #FFFFFF;
+        span {
+          color: red;
+        }
+      }
+    }
+  }
+}

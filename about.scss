@@ -1,0 +1,30 @@
+#about {
+  padding-top: 300px;
+  background: #1E2023;
+  filter: blur(2);
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--title {
+      //margin-left: 200px;
+      //display: flex;
+      //align-items: center;
+      //justify-content: center;
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 54px;
+        color: #FFFFFF;
+        span {
+          color: red;
+        }
+      }
+    }
+    div {
+      img {
+        width: 500px;
+      }
+    }
+  }
+}

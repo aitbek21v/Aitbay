@@ -1,0 +1,19 @@
+#motion {
+  padding-top: 300px;
+  background: #1E2023;
+  filter: blur(2);
+  .motion {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--title {
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 44px;
+        text-transform: unset;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

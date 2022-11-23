@@ -1,0 +1,22 @@
+#video {
+  padding-top: 300px;
+  background: #1E2023;
+  filter: blur(2);
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+  }
+  .video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--block {
+      //width: 100%;
+      display: flex;
+      flex-wrap: wrap-reverse;
+    }
+  }
+}
